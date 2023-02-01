@@ -489,8 +489,8 @@ main .container .view {
 /* start customization section  */
 .cus-theme {
   background-color: rgb(255, 255, 255, 50%);
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -590,7 +590,7 @@ main .container .view {
 }
 .cus-theme .backgrounds > div {
   padding: var(--card-padding);
-  width: 100%;
+  width: 30%;
   display: flex;
   align-items: center;
   font-size: 1rem;
@@ -680,6 +680,9 @@ main .container .view {
   }
   .cus-theme .card {
     width: 92vw;
+  }
+  .cus-theme .backgrounds > div {
+    width: 100%;
   }
 }
 /* end responsive */
